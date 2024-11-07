@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 20px;
+  height: 100%;
+}
+
+.container {
+  width: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #a1a1a1;
+  font-weight: normal;
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  text-align: center;
+  width: 50%;
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #218838;
+}
+
+.error {
+  color: #ff4d4d;
+  font-size: 0.85em;
+}
+
+#contactsList {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.contact {
+  background-color: #333;
+  border: 1px solid #555;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.contact.recent {
+  border-color: #28a745;
+}
+
+.contact:hover {
+  border-color: rgba(255, 0, 0, 0.371);
+}
+
+.contact p {
+  margin: 5px 0;
+}
+
+.contact .delete {
+  color: #f00;
+  font-size: 0.9em;
+  cursor: pointer;
+  text-align: right;
+}
+
+#contactCount {
+  color: #a1a1a1;
+  font-size: 0.9em;
+  margin-top: 10px;
+}
